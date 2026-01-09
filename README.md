@@ -8,26 +8,26 @@ In dieser Lernperiode beschäftige ich mich mit einer neuen Programmiersprache. 
 
 ## 09.01
 
-- [ ] Arbeitspaket 1: Eine Programmiersprache aussuchen
-- [ ] Arbeitspaket 2: Hello World
-- [ ] Arbeitspaket 3: Ein Tutorial für das nächste Mal zum Bearbeiten finden
+- [x] Arbeitspaket 1: Eine Programmiersprache aussuchen
+- [x] Arbeitspaket 2: Rust herunterladen
+- [x] Arbeitspaket 3: Hello World
 
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich angefangen, mich mit einer neuen Technologie vertraut zu machen. Ich habe Rust installiert und ein ‚Hello World‘ über das Terminal ausgegeben. Bei der Einrichtung gab es anfangs ein paar Schwierigkeiten und Fehlermeldungen, aber ich konnte sie lösen, indem ich die Anleitung noch einmal gelesen und ein YouTube-Tutorial zur Hilfe genommen habe. Danach habe ich nach einem passenden Projekt gesucht, um weiterzulernen. Da die vorhandenen Vorschläge mir nicht ganz zusagten, habe ich beschlossen, mir bis zum nächsten Mal genau zu überlegen, welches Projekt ich umsetzen möchte, um alle wichtigen Grundlagen zu lernen.
 
-☝️ Vergessen Sie nicht, einen ersten Code und Skizze auf github hochzuladen!
 
 ## 16.01
 
-- [ ] Arbeitspaket 1
-- [ ] Arbeitspaket 2
-- [ ] Arbeitspaket 3
-- [ ] Arbeitspaket 4
+- [ ] Arbeitspaket 1: Anschauen wie die wichtigsten sachen in Rust geschrieben werden. (Datatypes,Conditions,Functions, etc...)
+- [ ] Arbeitspaket 2: Den Syntax lernen.
+- [ ] Arbeitspaket 3: Lernen wie man mit User Input arbeiten kann.
+- [ ] Arbeitspaket 4: Entscheiden was ich für ein Programm machen möchte. (TicTacToe, Taschenrechner) Um die Grundlagen von Rust kennezulernen.
 
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 
 
 
