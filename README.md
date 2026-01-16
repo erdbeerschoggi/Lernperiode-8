@@ -31,7 +31,8 @@ Heute habe ich angefangen, mich so richtig mit Rust zu beschäftigen. Ich habe a
 - [ ] Arbeitspaket 2: Herausfinden wie ich in Rust rechnungen mit UserInput mache.
 - [ ] Arbeitspaket 3: Den Taschenrechner fertig erstellen.
 - [ ] Arbeitspaket 4: Wenn ich den Taschenrechner erstellt habe, sollte ich jede Zeile noch genauer analysieren so das ich wirklich verstehe was ich gemacht habe.
-- [ ] Arbeitspaket 5:Überlegen wie ich das Tutorial, das ich erstellen muss, gestallten möchte
+- [ ] Arbeitspaket 5: Überlegen wie ich das Tutorial, das ich erstellen muss, gestallten möchte
+
 
 
 
