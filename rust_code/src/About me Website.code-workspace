@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../About me Website"
+		},
+		{
+			"path": "../../../../M295/Code-M295"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Code-M295"
+	}
+}
