@@ -27,12 +27,13 @@ Heute habe ich angefangen, mich so richtig mit Rust zu beschäftigen. Ich habe a
 
 
 ## 23.01
-- [ ] Arbeitspaket 1: Das Tutorial vom Taschenrechner folgen(nicht nur im "KinoModus").
-- [ ] Arbeitspaket 2: Herausfinden wie ich in Rust rechnungen mit UserInput mache.
-- [ ] Arbeitspaket 3: Den Taschenrechner fertig erstellen.
-- [ ] Arbeitspaket 4: Wenn ich den Taschenrechner erstellt habe, sollte ich jede Zeile noch genauer analysieren so das ich wirklich verstehe was ich gemacht habe.
-- [ ] Arbeitspaket 5: Überlegen wie ich das Tutorial, das ich erstellen muss, gestallten möchte
+- [x] Arbeitspaket 1: Das Tutorial vom Taschenrechner folgen(nicht nur im "KinoModus").
+- [x] Arbeitspaket 2: Herausfinden wie ich in Rust rechnungen mit UserInput mache.
+- [x] Arbeitspaket 3: Den Taschenrechner fertig erstellen.
+- [x] Arbeitspaket 4: Wenn ich den Taschenrechner erstellt habe, sollte ich jede Zeile noch genauer analysieren so das ich wirklich verstehe was ich gemacht habe.
+- [x] Arbeitspaket 5: Überlegen wie ich das Tutorial, das ich erstellen muss, gestallten möchte
+
+Heute habe ich den Taschenrechner fertiggestellt. Ich habe dem Tutorial nur so gefolgt, dass ich selber verstehe, was ich mache. Also ich habe es gefolgt, aber als ich den Sinn dahinter verstanden habe, probierte ich selber weiter. Die Fehler, die ich hatte, versuchte ich auch wirklich zu verstehen und nicht einfach nur kurz mit dem Tutorial zu lösen. Als ich fertig mit dem Taschenrechner war, ging ich durch den ganzen Code und erstellte Kommentare zu meinem Code, sodass ich nochmal sicher gehen kann, dass ich verstehe. Dann habe ich mir Gedanken gemacht, wie ich mein Tutorial gestalten möchte, und ich habe mich entschieden, dass ich sehr wahrscheinlich einfach immer so den ersten Teil des Codes schreiben werde und dazu eine genaue Erklärung gebe, also z. B. Ich erstelle die Variablen, dann würde ich ein Bildschirmfoto machen und alles dazu erklären.
 
 
-
-
+## 13.02
