@@ -116,13 +116,81 @@ let result: f64 = if op == "1" {
 lets break this down: 
 1. ***let result: f64 = if op == "1" {
         x + y
-    }*** This sn
+    }*** This snippet lets us return the value (Result). So we basically create the variable result and now we start the if statement. Here we see that if op == 1 then it should add up the numbers. Because our first operator was addition. Now we continue that logic for the rest of the calculations. So if the user inputs 2 (for the operator they chose) the numbers should subtract and this logic works for all of the 4 Operators.
+2. ***else {
+        println!("Invalid Operator Selected");
+        0.0 
+    };*** Now the last else statement should give us back the result. If our code has a mistake and we cant get the result we should get a console output of "Invalid Operator Selected" and if our result works we should get a number. The 0.0 gets used as a placeholder for the number of our result
 
-
-
+Now our Calculator has all of the logic it needs, we just have to print the result on our Console:
 ```rust
-let op = op.trim();
+println!("Your result is: {}", result);
 ```
+There where the wavy brackets are, is where our result will be shown. And so rust knows that we want the result in those bracktes we just type a comma and then the variable result. 
+
+Now our Code is done and if you followed this Tutorial you should end up with the Code looking somewhat like this:
+```rust
+use std::io;
+
+fn main() {
+    // Variables to hold user input
+    let mut x = String::new();
+    let mut y = String::new();
+    let mut op = String::new();
+
+    println!("Welcome to this simple Calculator!");
+
+    //Choosing the operator
+    println!("Which operator would you like to use?");
+    println!("(1) Addition");
+    println!("(2) Subtract");
+    println!("(3) Multiply");
+    println!("(4) Divide");
+    println!("Select the number associated with the desired operation: "); 
+    // Reading the user input
+    io::stdin().read_line(&mut op).expect("Invalid Input");
+
+    println!("Enter your first number:");
+    io::stdin().read_line(&mut x).expect("Invalid Input");
+
+    println!("Now enter your second number:");
+    io::stdin().read_line(&mut y).expect("Invalid Input");
+    
+    // Converting the string inputs into f64 because for this to work we need to do math, and with the string type we cant save numbers
+    let x: f64 = x.trim().parse().expect("Error in Converting");
+    let y: f64 = y.trim().parse().expect("Error in Converting");
+    let op = op.trim();
+
+
+    // Performing the operation based on user input
+    let result: f64 = if op == "1" {
+        x + y
+    }
+    else if op == "2" {
+        x - y
+    }
+    else if op == "3" {
+        x * y
+    }
+    else if op == "4" {
+        x / y
+    }
+    else {
+        println!("Invalid Operator Selected");
+        0.0 // Das braucht man um einen Wert zurückzugeben, auch wenn der Operator ungültig ist. Das ist nur ein Platzhalter.
+    };
+
+    //Resultat wird wiedergegeben
+    println!("Your result is: {}", result);
+
+}
+```
+
+Now in order for our code to run, we have to open the terminal and type the command cargo run. 
+
 # Result
 
 # What could go wrong?
+1. If you type cargo run in the terminal to make your code run please make sure you have to write code open, or else it might not run at all or run the wrong code.
+2. Make sure you definetly have this ***use std::io;*** statement at the very start of the code, if you dont add this you wont be able to use user input or user output.
+3. A mistake I kept doing at the start was writing printIn(); and not println!(); If you look closely youll see that one letter is an I and the other is a l. Just please make sure you use write letter because I kept writing it wrong and had no idea why my code didnt work.
