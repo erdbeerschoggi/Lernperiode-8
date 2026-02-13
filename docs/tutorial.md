@@ -8,7 +8,7 @@ In this tutorial, you will learn how to create a Calculator that is able to do s
 
 # Previous Knowledge
 
-We'll assume you dont know how to code or have a slim knowledge of coding.
+We'll assume you have a slim knowledge of coding.
 
 # What you'll learn
 
@@ -78,8 +78,51 @@ println!("Now enter your second number:");
 io::stdin().read_line(&mut y).expect("Invalid Input");
 ```
 
+If you look at the Variables we declared before, youll see that we made them an empty string. Now if you know what a string is then you know that the string datatype only holds text but we are using Numbers so we have to convert the string datatype into a number datatype. In order to do this we write the following:
+```rust
+let x: f64 = x.trim().parse().expect("Error in Converting");
+let y: f64 = y.trim().parse().expect("Error in Converting");
+```
+Lets break it down:
+1. ***x: f64*** Converts the 64-bit floating number, usually if you code in rust you dont specifically have to define it because rust just recognizes it and adds it in itself.
+3. ***x.trim()*** when you press enter a new line is created so the converting will definetly work.
+4. ***.parse()*** Converts the Datatype
+5. ***.expect("Error in Converting");*** If the onverting doesnt work the programm would crash and give us the message ""Error in Converting"
+
+Here we just remove the new line so its easier to compare, because with the operators we dont have to change it into a different Datatype.
+```rust
+let op = op.trim();
+```
+
+Now for our Calculator to actually work we have to code the logic behind it.
+```rust
+let result: f64 = if op == "1" {
+        x + y
+    }
+    else if op == "2" {
+        x - y
+    }
+    else if op == "3" {
+        x * y
+    }
+    else if op == "4" {
+        x / y
+    }
+    else {
+        println!("Invalid Operator Selected");
+        0.0 //You need this for the result to return. This is just a placeholder.
+    };
+```
+lets break this down: 
+1. ***let result: f64 = if op == "1" {
+        x + y
+    }*** This sn
 
 
+
+```rust
+let op = op.trim();
+```
 # Result
 
 # What could go wrong?
