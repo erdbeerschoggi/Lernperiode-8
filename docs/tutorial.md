@@ -34,10 +34,10 @@ let mut x = String::new();
 let mut y = String::new();
 ```
 Lets break this down: 
-1. **let** declares our Variable
-2. **mut** makes the Variable changeable, since UserInput will modify this Variable, we need it to be changeable.
-3. **x & y** is the name of our Variable
-4. **String::new();** Creates an empty String, so that means the Variable is empty until the user inputs something.
+1. *let* declares our Variable
+2. *mut* makes the Variable changeable, since UserInput will modify this Variable, we need it to be changeable.
+3. *x & y* is the name of our Variable
+4. *String::new();* Creates an empty String, so that means the Variable is empty until the user inputs something.
 
 Now we created both Variables for the 2 Numbers that the user will input. But thats not all the Variables that we will need. We also need a Variable that will hold the operator choice. So we basically let the User choose which one of the 4 operations they would like to use: (1) Addition, (2) Subtract, (3) Multiply or (4) Divide. Now to hold the Users operator choice we also need a Variable so we just follow the principles from the other 2 Variables.
 ```rust
@@ -64,7 +64,7 @@ Now the most important thing. Our Calculator is supposed to be able to read User
 io::stdin().read_line(&mut op).expect("Invalid Input");
 ```
 lets break this line of code down: 
-1. **io::stdin()**
+1. *io::stdin()*
 
 # Result
 
