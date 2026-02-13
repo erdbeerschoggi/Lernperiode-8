@@ -190,6 +190,9 @@ Now in order for our code to run, we have to open the terminal and type the comm
 
 # Result
 
+![RustCalculator (1)](https://github.com/user-attachments/assets/32c53523-cc5b-479c-b036-9b64d902dca2)
+
+
 # What could go wrong?
 1. If you type cargo run in the terminal to make your code run please make sure you have to write code open, or else it might not run at all or run the wrong code.
 2. Make sure you definetly have this ***use std::io;*** statement at the very start of the code, if you dont add this you wont be able to use user input or user output.
