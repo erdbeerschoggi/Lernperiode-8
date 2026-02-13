@@ -44,7 +44,7 @@ Now we created both Variables for the 2 Numbers that the user will input. But th
 let mut op = String::new();
 ```
 
-What I did next was to help myself with the steps I want the calculator to follow. You can do these Steps whenever but I feel like its hepful with orienting myself what i need to code next. I just wrote down everything I want the Console to output. For the Console to be able to Output Text we just use the statement println!();
+Now we just write the Menu for choosing the operators. For the Console to be able to Output Text we just use the statement println!();
 ```rust
 println!("Welcome to this simple Calculator!");
 
@@ -56,16 +56,15 @@ println!("(3) Multiply");
 println!("(4) Divide");
 println!("Select the number associated with the desired operation: ");
 
-//Entering the Numbers
-println!("Enter your first number:");
-println!("Now enter your second number:");
 ```
 Obviously just the Output on the Console wont make anything work yet but it just helps to know what we have to do.
 
-
+Now the most important thing. Our Calculator is supposed to be able to read User Input and for it to do this we need to code the following statement:
 ```rust
-fn main ()
+io::stdin().read_line(&mut op).expect("Invalid Input");
 ```
+lets break this line of code down: 
+1. **io::stdin()**
 
 # Result
 
