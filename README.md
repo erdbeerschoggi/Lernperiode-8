@@ -37,3 +37,4 @@ Heute habe ich den Taschenrechner fertiggestellt. Ich habe dem Tutorial nur so g
 
 
 ## 13.02
+- [x] Tutorial erstellen
