@@ -24,8 +24,25 @@ This code statement basically tells Rust that we are using input and output tool
 Now we have to add the main Function so we can define the programs starting point. 
 ```rust
 fn main ()
-{
-}
+```
+
+Now we are going to start writing the actual Code so our Calculator will work.
+First thing we do is write the Variables. Because if we dont declare them now we wont be able to work with anything. Varibales are essential for this Calculator to work, because they are going to hold our user input.
+With this being a simple Calculator, it should only be able to Calculate with 2 numbers. Thats why we declare 2 Variables that will stand for this number: x and y. 
+```rust
+let mut x = String::new();
+```
+```rust
+let mut y = String::new();
+```
+
+
+
+```rust
+fn main ()
+```
+```rust
+fn main ()
 ```
 
 # Result
