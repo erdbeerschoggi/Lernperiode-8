@@ -34,10 +34,10 @@ let mut x = String::new();
 let mut y = String::new();
 ```
 Lets break this down: 
-1. *let* declares our Variable
-2. *mut* makes the Variable changeable, since UserInput will modify this Variable, we need it to be changeable.
-3. *x & y* is the name of our Variable
-4. *String::new();* Creates an empty String, so that means the Variable is empty until the user inputs something.
+1. ***let*** declares our Variable
+2. ***mut*** makes the Variable changeable, since UserInput will modify this Variable, we need it to be changeable.
+3. ***x & y*** is the name of our Variable
+4. ***String::new();*** Creates an empty String, so that means the Variable is empty until the user inputs something.
 
 Now we created both Variables for the 2 Numbers that the user will input. But thats not all the Variables that we will need. We also need a Variable that will hold the operator choice. So we basically let the User choose which one of the 4 operations they would like to use: (1) Addition, (2) Subtract, (3) Multiply or (4) Divide. Now to hold the Users operator choice we also need a Variable so we just follow the principles from the other 2 Variables.
 ```rust
@@ -64,7 +64,21 @@ Now the most important thing. Our Calculator is supposed to be able to read User
 io::stdin().read_line(&mut op).expect("Invalid Input");
 ```
 lets break this line of code down: 
-1. *io::stdin()*
+1. ***io::stdin()*** This statement grants us access to the UserInput and Ouput function
+2. ***.read_line*** This reads what the User writes. So if the user types in 3 then it reads the number 3.
+3. ***(&mut op)*** The & References to what the User writes, mut lets the text that the user writes modiy the variable op.
+4. ***.expect("Invalid Input");*** If the Input fails the program will just give us a message "Invalid Input" to let us know that its nto working.
+
+Now we ask the User to type in his 2 numbers that he would like to use with the specific operation they chose before. For those 2 Numbers we also repeat the process of reading the User Input just like before. This Snippet of code should look like this:
+```rust
+println!("Enter your first number:");
+io::stdin().read_line(&mut x).expect("Invalid Input");
+
+println!("Now enter your second number:");
+io::stdin().read_line(&mut y).expect("Invalid Input");
+```
+
+
 
 # Result
 
