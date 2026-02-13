@@ -36,5 +36,4 @@ Heute habe ich angefangen, mich so richtig mit Rust zu beschäftigen. Ich habe a
 Heute habe ich den Taschenrechner fertiggestellt. Ich habe dem Tutorial nur so gefolgt, dass ich selber verstehe, was ich mache. Also ich habe es gefolgt, aber als ich den Sinn dahinter verstanden habe, probierte ich selber weiter. Die Fehler, die ich hatte, versuchte ich auch wirklich zu verstehen und nicht einfach nur kurz mit dem Tutorial zu lösen. Als ich fertig mit dem Taschenrechner war, ging ich durch den ganzen Code und erstellte Kommentare zu meinem Code, sodass ich nochmal sicher gehen kann, dass ich verstehe. Dann habe ich mir Gedanken gemacht, wie ich mein Tutorial gestalten möchte, und ich habe mich entschieden, dass ich sehr wahrscheinlich einfach immer so den ersten Teil des Codes schreiben werde und dazu eine genaue Erklärung gebe, also z. B. Ich erstelle die Variablen, dann würde ich ein Bildschirmfoto machen und alles dazu erklären.
 
 
-## 13.02
-- [x] Tutorial erstellen
+
