@@ -21,6 +21,13 @@ use std::io;
 ```
 This code statement basically tells Rust that we are using input and output tools from Rusts standard library. Without this user Input and Output wouldnt be possible.
 
+Now we have to add the main Function so we can define the programs starting point. 
+```rust
+fn main ()
+{
+}
+```
+
 # Result
 
 # What could go wrong?
